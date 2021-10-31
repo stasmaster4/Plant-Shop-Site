@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    /* background-color: black; */
+    max-width: 1280px;
+    margin: auto;
+}
+
+.path-one {
+    display: flex;
+}
+
+.icon-nav:hover {
+cursor: pointer;
+}
+
+.nav-bar {
+    display: flex;
+    margin-right: 57px;
+    margin-top: 43px;
+    justify-content: flex-end;
+}
+
+.bi-search,
+.bi-cart2 {
+    width: 13, 3px;
+    height: 13, 3px;
+}
+
+.sign-up-btn {
+    background-color: white;
+    width: 100px;
+    height: 36px;
+    color: #156963;
+}
+
+.sign-up-btn:hover {
+    background-color: #e4e4e4;
+    cursor: pointer;
+}
+
+.sign-in-btn {
+    width: 111px;
+    height: 36px;
+    background-color: #156963;
+    color: white;
+}
+
+.sign-in-btn:hover {
+    cursor: pointer;
+    background-color: #288f88;
+}
+
+.sign-in-btn p,
+.sign-up-btn p {
+    text-align: center;
+    margin-top: 7px;
+}
+
+.sign-in,
+.sign-up {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.icon-nav {
+    margin-top: 10px;
+    margin-right: 7px;
+}
+
+.icon-cart {
+    padding-right: 10px;
+}
+
+.icon-search {
+    padding-right: 40px;
+}
+
+.path-one-right-text {
+    padding-left: 75px;
+    padding-top: 110px;
+}
+
+.path-one-right-text h1 {
+    width: 523px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 83px;
+    color: #156963;
+}
+
+.path-one-right-text p {
+    padding-top: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2C1500;
+    opacity: 0.8;
+}
+
+.path-one-right-select {
+    display: flex;
+    padding-left: 30px;
+    padding-top: 110px;
+}
+
+.path-one-right-select-previous {
+    width: 320px;
+    height: 160px;
+}
+
+.path-one-right-select-previous:hover {
+    cursor: pointer;
+    background-color: #e4e4e4;
+}
+
+.path-one-right-select-next {
+    background-color: #156963;
+    width: 320px;
+    height: 160px;
+}
+
+.path-one-right-select-next:hover {
+    cursor: pointer;
+    background-color: #288f88;
+}
+
+.top-line {
+    padding-left: 60px;
+    padding-top: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.bi-arrow-right {
+    margin-left: 2px;
+}
+
+.path-one-right-select-next .top-line {
+    color: white;
+}
+
+.bottom-line {
+    padding-left: 60px;
+    padding-top: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.bottom-line-right {
+    color: white;
+}
+
+.bottom-line-left {
+    color: #156963;
+}
+
+.path-two {
+    display: flex;
+    justify-content: space-between;
+    padding: 135px 55px 0;
+}
+
+.card {
+    width: 268px;
+    height: 155px;
+    border: #333333 1px solid;
+}
+
+.card .line-top {
+    display: flex;
+    padding-top: 21px;
+}
+
+.line-top h3 {
+    padding-left: 16px;
+}
+
+.card .line-bottom {
+    padding-top: 20px;
+}
+
+.card div {
+    width: 236px;
+    padding-left: 15px;
+}
+
+.card h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #156963;
+}
+
+.card p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    color: #2C1500;
+}
+
+.path-three {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 55px;
+    margin-right: 55px;
+    border-bottom: solid 1px #333333;
+    padding-bottom: 17px;
+}
+
+.path-three-select {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.path-three-btn {
+    border: #333333 2px solid;
+    padding: 5px 20px 5px 10px;
+}
+
+.path-three-btn:hover {
+    cursor: pointer;
+    background-color: #e4e4e4;
+}
+
+.path-three-btn p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.path-four {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 55px 0;
+}
+
+.picture {
+    background: #F3F4F6;
+}
+
+.name {
+    margin-top: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.price {
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.path-five {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 55px 0;
+}
+
+.left-path h1 {
+    max-width: 522px;
+    margin-top: 7px;
+    margin-left: 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 1px;
+    color: #2C1500;
+}
+
+.left-path p {
+    max-width: 522px;
+    margin-top: 18px;
+    margin-left: 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #2C1500;
+    opacity: 0.8;
+}
+
+.bottom-img {
+    margin-top: 70px;
+}
+
+.path-six {
+    background: #F3F4F6;
+    display: flex;
+    justify-content: space-between;
+    margin: 75px 55px 0;
+}
+
+.path-six .left-part {
+    max-width: 585px;
+    padding-top: 85px;
+    padding-left: 100px;
+}
+
+.path-six-h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 56px;
+    color: #2C1500;
+    letter-spacing: 0.5px;
+}
+
+.visit-shop {
+    margin-top: 35px;
+    width: 152px;
+    height: 40px;
+    background-color: #156963;
+    color: white;
+}
+
+.visit-shop p {
+    padding-top: 8px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FAFEFE;
+    letter-spacing: 1px;
+}
+
+.visit-shop:hover {
+    cursor: pointer;
+    background-color: #288f88;
+}
+
+.path-six .right-part {
+    margin-right: 40px;
+}
+
+.path-seven {
+    display: flex;
+    justify-content: space-between;
+    margin: 75px 0;
+    padding: 57px 167px;
+    border-top: solid 1px #333333;
+}
+
+.block-one {
+    max-width: 282px;
+}
+
+.block-one h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #156963;
+}
+
+.block-one h2 {
+    margin-top: 25px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.block-one p {
+    margin-top: 10px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+
+.block-two h2,
+.block-three h2,
+.block-four h2 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.block-two h3,
+.block-three h3 {
+    margin-top: 20px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.block-four input {
+    width: 234px;
+    height: 32px;
+    border: 1px solid #F2F2F2;
+    margin-top: 15px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.submit {
+    width: 51px;
+    height: 22px;
+    background-color: #156963;
+    margin-top: 15px;
+    font-family: Raleway;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: #288f88;
+}
+
+.submit p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding-top: 5px;
+}
